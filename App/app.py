@@ -99,8 +99,13 @@ st.markdown("""
         color: white;
     }
     
-    [data-testid="stSidebar"] .stMarkdown {
-        color: white;
+    /* All sidebar text elements */
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] div {
+        color: white !important;
+        font-weight: 500;
     }
     
     [data-testid="stSidebar"] h1, 
