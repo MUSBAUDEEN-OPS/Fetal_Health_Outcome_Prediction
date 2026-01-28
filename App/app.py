@@ -115,7 +115,7 @@ st.markdown("""
     }
     
     [data-testid="stSidebar"] label {
-        color: white !important;
+        color: black !important;
         font-weight: 500;
     }
     
