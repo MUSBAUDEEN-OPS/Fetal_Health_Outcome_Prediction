@@ -111,11 +111,11 @@ st.markdown("""
     [data-testid="stSidebar"] h1, 
     [data-testid="stSidebar"] h2, 
     [data-testid="stSidebar"] h3 {
-        color: black !important;
+        color: white !important;
     }
     
     [data-testid="stSidebar"] label {
-        color: white !important;
+        color: black !important;
         font-weight: 500;
     }
     
