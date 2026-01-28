@@ -107,6 +107,7 @@ st.markdown("""
         color: white !important;
         font-weight: 500;
     }
+    
     /* Sidebar select box - make text visible */
     [data-testid="stSidebar"] .stSelectbox > div > div {
         background-color: white !important;
