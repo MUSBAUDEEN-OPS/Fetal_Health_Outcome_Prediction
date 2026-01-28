@@ -107,7 +107,29 @@ st.markdown("""
         color: white !important;
         font-weight: 500;
     }
+    /* Sidebar select box - make text visible */
+    [data-testid="stSidebar"] .stSelectbox > div > div {
+        background-color: white !important;
+        color: #1a202c !important;
+    }
     
+    /* Sidebar select box selected value */
+    [data-testid="stSidebar"] .stSelectbox [data-baseweb="select"] {
+        background-color: white !important;
+    }
+    
+    [data-testid="stSidebar"] .stSelectbox [data-baseweb="select"] > div {
+        color: #1a202c !important;
+    }
+    
+    /* Sidebar dropdown menu */
+    [data-testid="stSidebar"] [role="listbox"] {
+        background-color: white !important;
+    }
+    
+    [data-testid="stSidebar"] [role="option"] {
+        color: #1a202c !important;
+    }
     [data-testid="stSidebar"] h1, 
     [data-testid="stSidebar"] h2, 
     [data-testid="stSidebar"] h3 {
