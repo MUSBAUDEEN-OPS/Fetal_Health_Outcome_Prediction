@@ -96,7 +96,7 @@ st.markdown("""
     /* Sidebar styling */
     [data-testid="stSidebar"] {
         background: linear-gradient(180deg, #1e3a5f 0%, #2c5282 100%);
-        color: black;
+        color: white;
     }
     
     /* All sidebar text elements */
