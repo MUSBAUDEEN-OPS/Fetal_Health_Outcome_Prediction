@@ -616,8 +616,7 @@ def render_header():
     with col1:
         st.title("🏥 Fetal Health Monitoring System")
         st.markdown("""
-            <p style='font-size: 1.1rem; color: #4a5568; margin-top: -10px;'>
-            
+            <p style='font-size: 1.1rem; color: #4a5568; margin-top: -10px;'>            
                 AI-Powered Cardiotocography Analysis for Healthcare Professionals
             </p>
         """, unsafe_allow_html=True)
