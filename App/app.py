@@ -180,7 +180,7 @@ st.markdown("""
         border: 2px solid #e2e8f0;
         padding: 0.5rem;
         transition: border-color 0.3s ease;
-        color: #1a202c !important;
+        color: white !important;
         background-color: white;
     }
     
