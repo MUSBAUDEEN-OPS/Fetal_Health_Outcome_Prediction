@@ -260,7 +260,25 @@ st.markdown("""
         border-radius: 8px;
         overflow: hidden;
     }
+
+    /* Sidebar selectbox - fix selected value visibility */
+    [data-testid="stSidebar"] .stSelectbox [data-baseweb="select"] span {
+        color: #1a202c !important;
+    }
     
+    [data-testid="stSidebar"] .stSelectbox [data-baseweb="select"] div[role="button"] {
+        color: #1a202c !important;
+    }
+    
+    /* Target the selected value more specifically */
+    [data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] > div:first-child {
+        color: #1a202c !important;
+    }
+    
+    /* Override any white color on selectbox text */
+    [data-testid="stSidebar"] .stSelectbox * {
+        color: #1a202c !important;
+    }
     /* Status badge */
     .status-badge {
         display: inline-block;
