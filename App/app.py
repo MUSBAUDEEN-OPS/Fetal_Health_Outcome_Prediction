@@ -750,7 +750,7 @@ def render_manual_input(patient_id, gestational_age, maternal_age,
         
         col_x, col_y = st.columns(2)
         with col_x:
-            hist_variance = st.number_input("Histogram Variance", min_value=0.0, max_value=100.0, value=15.0, step=1.0)
+            hist_variance = st.number_input("Histogram Variance", min_value=0.0, max_value=350.0, value=15.0, step=1.0)
         with col_y:
             hist_tendency = st.selectbox("Histogram Tendency", options=[0, 1, -1], index=0)
         
