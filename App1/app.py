@@ -667,7 +667,7 @@ def render_prediction(selected_model):
         with col3:
             features['histogram_mean'] = st.number_input("Mean", 0.0, 200.0, 130.0, 1.0)
             features['histogram_median'] = st.number_input("Median", 0.0, 200.0, 130.0, 1.0)
-            features['histogram_variance'] = st.number_input("Variance", 0.0, 300, 20.0, 1.0)
+            features['histogram_variance'] = st.number_input("Variance", 0.0, 300.0, 20.0, 1.0)
             features['histogram_tendency'] = st.number_input("Tendency", -1.0, 1.0, 0.0, 1.0)
     
     st.markdown("---")
