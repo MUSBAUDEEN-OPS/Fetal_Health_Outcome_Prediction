@@ -667,6 +667,8 @@ def render_prediction(selected_model):
             features['histogram_width'] = st.number_input("Width", 0.0, 200.0, 70.0, 1.0)
             features['histogram_min'] = st.number_input("Min", 0.0, 200.0, 60.0, 1.0)
             features['histogram_max'] = st.number_input("Max", 0.0, 300.0, 150.0, 1.0)
+            features['histogram_tendency'] = st.number_input("Tendency", -1.0, 1.0, 0.0, 1.0)
+
         with col2:
             features['histogram_number_of_peaks'] = st.number_input("Peaks", 0.0, 20.0, 3.0, 1.0)
             features['histogram_number_of_zeroes'] = st.number_input("Zeros", 0.0, 20.0, 0.0, 1.0)
@@ -675,8 +677,7 @@ def render_prediction(selected_model):
             features['histogram_mean'] = st.number_input("Mean", 0.0, 200.0, 130.0, 1.0)
             features['histogram_median'] = st.number_input("Median", 0.0, 200.0, 130.0, 1.0)
             features['histogram_variance'] = st.number_input("Variance", 0.0, 300.0, 20.0, 1.0)
-            features['histogram_tendency'] = st.number_input("Tendency", -1.0, 1.0, 0.0, 1.0)
-    
+                
     st.markdown("---")
     
     if st.button("🔍 Analyze", use_container_width=True, type="primary"):
