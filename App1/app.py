@@ -594,7 +594,7 @@ def render_prediction(selected_model):
     # Patient info
     col1, col2 = st.columns(2)
     with col1:
-        patient_id = st.text_input("Patient ID", "FH-2024-001")
+        patient_id = st.text_input("Patient ID", value="FH-" + datetime.now().strftime("%Y%m%d-%H%M"))
         gestational_age = st.number_input("Gestational Age (weeks)", 20, 42, 32)
     with col2:
         maternal_age = st.number_input("Maternal Age (years)", 18, 50, 28)
