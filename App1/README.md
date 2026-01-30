@@ -47,6 +47,8 @@ pip install -r requirements.txt
      - accelerations
      - fetal_movement
      - uterine_contractions
+     - light_decelerations
+     - severe_decelerations
      - prolongued_decelerations
      - abnormal_short_term_variability
      - mean_value_of_short_term_variability
