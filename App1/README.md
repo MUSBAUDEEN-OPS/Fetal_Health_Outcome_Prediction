@@ -1,4 +1,4 @@
-# Fetal Health Monitoring System v2.0
+# Fetal Health Monitoring System
 
 A production-ready Streamlit application with integrated machine learning models for fetal health classification using Cardiotocography (CTG) data.
 
