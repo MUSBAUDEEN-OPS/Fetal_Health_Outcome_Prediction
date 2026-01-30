@@ -632,15 +632,16 @@ def render_prediction(selected_model):
             features['light_decelerations'] = st.number_input(
                 "light decelerations (/s)", 0.0, 0.01, 0.0, 0.001, format="%.4f"
             )
-            features['severe_decelerations'] = st.number_input(
-                "Severe decelerations (/s)", 0.0, 0.01, 0.0, 0.001, format="%.4f"
-            )
+        
             features['prolongued_decelerations'] = st.number_input(
                 "Prolonged Decelerations (/s)", 0.0, 0.01, 0.0, 0.001, format="%.4f"
             )
         with col2:
             features['fetal_movement'] = st.number_input(
                 "Fetal Movement (/s)", 0.0, 0.5, 0.0, 0.01, format="%.3f"
+            )
+            features['severe_decelerations'] = st.number_input(
+                "Severe decelerations (/s)", 0.0, 0.01, 0.0, 0.001, format="%.4f"
             )
             features['uterine_contractions'] = st.number_input(
                 "Uterine Contractions (/s)", 0.0, 0.02, 0.006, 0.001, format="%.4f"
